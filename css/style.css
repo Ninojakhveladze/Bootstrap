@@ -1,4 +1,12 @@
 .a-nav {
     font-weight: bold;
     text-transform: uppercase;
+    text-align: right;   
+}
+.bg-image {
+    background-image: url(../images/bg-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
 }

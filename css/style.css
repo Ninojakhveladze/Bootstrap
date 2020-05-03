@@ -8,6 +8,9 @@
     font-weight: 300;
     line-height: 1.2;
 }
+.card-img-overlay p {
+    font-family: fantasy;
+}
 .bg-image {
     padding: 15px;
     margin: 0 auto;
@@ -21,6 +24,9 @@
 }
 .pr-65px {
     padding-right: 65px;
+}
+h5 {
+    font-family: fantasy;
 }
 @media (max-width: 1199.98px) { 
     .card-img-overlay {
@@ -52,3 +58,10 @@
         margin-top: 64px;
     }
 }
+
+@media (max-width: 1020px) {
+    .card-body-text {
+        padding: 1.9rem;
+    }
+}
+
